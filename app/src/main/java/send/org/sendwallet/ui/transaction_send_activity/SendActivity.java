@@ -480,17 +480,21 @@ public class SendActivity extends BaseActivity implements View.OnClickListener {
                 try {
                     address = data.getStringExtra(INTENT_EXTRA_RESULT);
                     String usedAddress;
-                    if (sendModule.chechAddress(address)){
-                        usedAddress = address;
+                    String bitcoinUrl = address;
+                    String addresss = bitcoinUrl.replaceAll("coin2play:(.*)\\?.*", "$1");
+                    String label = bitcoinUrl.replaceAll(".*label=(.*)&.*", "$1");
+                    String amounta = bitcoinUrl.replaceAll(".*amount=(.*)(&.*)?", "$1");
+                    if (sendModule.chechAddress(addresss)){
+                        usedAddress = addresss;
                     }else {
-                        SendURI sendUri = new SendURI(address);
-                        usedAddress = sendUri.getAddress().toBase58();
+                        SendURI sendUri = new SendURI(addresss);
+                        usedAddress = addresss;
                     }
                     final String tempPubKey = usedAddress;
                     edit_address.setText(tempPubKey);
                 }catch (Exception e){
                     e.printStackTrace();
-                    Toast.makeText(this,"Bad address "+address,Toast.LENGTH_LONG).show();
+                    Toast.makeText(this,"Bad address "+addresss,Toast.LENGTH_LONG).show();
                 }
             }
         }else if(requestCode == SEND_DETAIL){

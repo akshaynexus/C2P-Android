@@ -273,11 +273,16 @@ public class WalletActivity extends BaseDrawerActivity {
                 try {
                     String address = data.getStringExtra(INTENT_EXTRA_RESULT);
                     String usedAddress;
-                    if (sendModule.chechAddress(address)){
-                        usedAddress = address;
+                    String bitcoinUrl = address;
+                    String addresss = bitcoinUrl.replaceAll("coin2play:(.*)\\?.*", "$1");
+                    String label = bitcoinUrl.replaceAll(".*label=(.*)&.*", "$1");
+                    String amounta = bitcoinUrl.replaceAll(".*amount=(.*)(&.*)?", "$1");
+
+                    if (sendModule.chechAddress(addresss)){
+                        usedAddress = addresss;
                     }else {
-                        SendURI sendUri = new SendURI(address);
-                        usedAddress = sendUri.getAddress().toBase58();
+                        SendURI sendUri = new SendURI(addresss);
+                        usedAddress = addresss;
                     }
                     DialogsUtil.showCreateAddressLabelDialog(this,usedAddress);
                 }catch (Exception e){
@@ -300,9 +305,9 @@ public class WalletActivity extends BaseDrawerActivity {
 
     private void updateBalance() {
         Coin availableBalance = sendModule.getAvailableBalanceCoin();
-        txt_value.setText(!availableBalance.isZero()?availableBalance.toFriendlyString():"0 Send");
+        txt_value.setText(!availableBalance.isZero()?availableBalance.toFriendlyString():"0 C2P");
         Coin unnavailableBalance = sendModule.getUnnavailableBalanceCoin();
-        txt_unnavailable.setText(!unnavailableBalance.isZero()?unnavailableBalance.toFriendlyString():"0 Send");
+        txt_unnavailable.setText(!unnavailableBalance.isZero()?unnavailableBalance.toFriendlyString():"0 C2P");
         if (sendRate == null)
             sendRate = sendModule.getRate(sendApplication.getAppConf().getSelectedRateCoin());
         if (sendRate!=null) {
