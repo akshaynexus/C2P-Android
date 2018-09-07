@@ -1,6 +1,6 @@
 package send.org.sendwallet.contacts;
 
-import org.sendj.core.Sha256Hash;
+import org.coin2playj.core.Sha256Hash;
 
 import java.io.Serializable;
 import java.util.ArrayList;

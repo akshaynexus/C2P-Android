@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.sendj.core.Coin;
+import org.coin2playj.core.Coin;
 
 import send.org.sendwallet.R;
 import send.org.sendwallet.ui.base.BaseActivity;

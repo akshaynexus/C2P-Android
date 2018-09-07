@@ -169,7 +169,7 @@ public class RestoreActivity extends BaseActivity {
                 @Override
                 public void run() {
                     try {
-                        org.sendj.core.Context.propagate(SendContext.CONTEXT);
+                        org.coin2playj.core.Context.propagate(SendContext.CONTEXT);
                         File file = (File) spinnerFiles.getSelectedItem();
                         if (WalletUtils.BACKUP_FILE_FILTER.accept(file)) {
                             sendModule.restoreWallet(file);

@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.sendj.core.Coin;
-import org.sendj.utils.MonetaryFormat;
+import org.coin2playj.core.Coin;
+import org.coin2playj.utils.MonetaryFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -11,7 +11,7 @@
         <item>Uran</item>
         <item>Neptun</item>
     </string-array>
-    <string name="app_name">SEND Peněženka</string>
+    <string name="app_name">C2P Peněženka</string>
     <string name="btn_create_wallet">Vytvořit Peněženku</string>
     <string name="btn_restore_wallet">Obnovit Peněženku</string>
     <string name="restore_wallet_message">Vybrat zálohu peněžneky \n z úložiště</string>
@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Změnit důvěryhodný uzel</string>
     <string name="settings_reset_blockchain">Resetovat blockchain</string>
     <string name="save">Uložit</string>
-    <string name="tutorial_message">Inovativní kryptocurrency pro sociální posílání. Sdílejte SEND okamžitě napříč platformami sociálních sítí.</string>
+    <string name="tutorial_message">Inovativní kryptocurrency pro sociální posílání. Sdílejte C2P okamžitě napříč platformami sociálních sítí.</string>
     <!-- Tutorial -->
     <string name="next">Další</string>
     <string name="skip">Přeskočit</string>
     <string name="start">Start</string>
-    <string name="title_slide1">SEND je zabezpečen</string>
+    <string name="title_slide1">C2P je zabezpečen</string>
     <string name="desc_slide1">Použití šifrování a dešifrování soukromých klíčů BIP38 pro zabezpečení peněženky.</string>
     <string name="title_slide2">60 VTEŘIN PRO ZPRACOVÁNÍ BLOKU</string>
-    <string name="desc_slide2">Již velmi rychlé transakce SEND pomocí služby SwiftTX jsou okamžité s požadovaným časem čekací doby pro potvrzení.</string>
+    <string name="desc_slide2">Již velmi rychlé transakce C2P pomocí služby SwiftTX jsou okamžité s požadovaným časem čekací doby pro potvrzení.</string>
     <string name="title_slide3">Mimořádně zabezpečená a privátní</string>
-    <string name="desc_slide3">SEND usiluje o to, aby byla zřízena první společenská platforma pro krypto-měnu.</string>
+    <string name="desc_slide3">C2P usiluje o to, aby byla zřízena první společenská platforma pro krypto-měnu.</string>
     <string name="title_slide4">Federace důvěryhodných uzlů</string>
     <string name="desc_slide4">Fed Federace důvěryhodných uzlů umožňuje lehké PoS peněženky, můžete se na ně spolehnout nebo vytvořit vlastní důvěryhodný uzel!</string>
     <string name="option_add_node">Přidat uzel</string>
@@ -133,7 +133,7 @@
     <string name="restore_dialog_tag">obnovit dialog tag</string>
     <string name="restore_dialog_error">obnovit dialog chyba</string>
     <string name="settings_support">Podpora</string>
-    <string name="support_subject">Podpora SEND peněženky</string>
+    <string name="support_subject">Podpora C2P peněženky</string>
     <string name="tutorial">Tutorial</string>
     <string name="copy">Kopírovat</string>
     <string name="share">Sdílet</string>

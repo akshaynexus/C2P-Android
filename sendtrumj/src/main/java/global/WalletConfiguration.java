@@ -1,7 +1,7 @@
 package global;
 
-import org.sendj.core.Context;
-import org.sendj.core.NetworkParameters;
+import org.coin2playj.core.Context;
+import org.coin2playj.core.NetworkParameters;
 
 /**
  * Created by kaali on 6/4/17.

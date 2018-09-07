@@ -12,7 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.sendj.core.InsufficientMoneyException;
+import org.coin2playj.core.InsufficientMoneyException;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;

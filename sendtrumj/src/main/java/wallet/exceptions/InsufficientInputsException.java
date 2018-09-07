@@ -1,6 +1,6 @@
 package wallet.exceptions;
 
-import org.sendj.core.Coin;
+import org.coin2playj.core.Coin;
 
 /**
  * Created by kaali on 8/9/17.

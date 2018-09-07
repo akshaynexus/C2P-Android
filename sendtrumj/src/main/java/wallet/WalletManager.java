@@ -2,30 +2,30 @@ package wallet;
 
 import com.google.common.base.Charsets;
 
-import org.sendj.core.Address;
-import org.sendj.core.BlockChain;
-import org.sendj.core.Coin;
-import org.sendj.core.InsufficientMoneyException;
-import org.sendj.core.PeerGroup;
-import org.sendj.core.Sha256Hash;
-import org.sendj.core.Transaction;
-import org.sendj.core.TransactionInput;
-import org.sendj.core.TransactionOutput;
-import org.sendj.core.Utils;
-import org.sendj.core.listeners.TransactionConfidenceEventListener;
-import org.sendj.crypto.DeterministicKey;
-import org.sendj.crypto.LinuxSecureRandom;
-import org.sendj.crypto.MnemonicCode;
-import org.sendj.crypto.MnemonicException;
-import org.sendj.wallet.DeterministicKeyChain;
-import org.sendj.wallet.DeterministicSeed;
-import org.sendj.wallet.Protos;
-import org.sendj.wallet.SendRequest;
-import org.sendj.wallet.UnreadableWalletException;
-import org.sendj.wallet.Wallet;
-import org.sendj.wallet.WalletFiles;
-import org.sendj.wallet.WalletProtobufSerializer;
-import org.sendj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.coin2playj.core.Address;
+import org.coin2playj.core.BlockChain;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.InsufficientMoneyException;
+import org.coin2playj.core.PeerGroup;
+import org.coin2playj.core.Sha256Hash;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.core.TransactionInput;
+import org.coin2playj.core.TransactionOutput;
+import org.coin2playj.core.Utils;
+import org.coin2playj.core.listeners.TransactionConfidenceEventListener;
+import org.coin2playj.crypto.DeterministicKey;
+import org.coin2playj.crypto.LinuxSecureRandom;
+import org.coin2playj.crypto.MnemonicCode;
+import org.coin2playj.crypto.MnemonicException;
+import org.coin2playj.wallet.DeterministicKeyChain;
+import org.coin2playj.wallet.DeterministicSeed;
+import org.coin2playj.wallet.Protos;
+import org.coin2playj.wallet.SendRequest;
+import org.coin2playj.wallet.UnreadableWalletException;
+import org.coin2playj.wallet.Wallet;
+import org.coin2playj.wallet.WalletFiles;
+import org.coin2playj.wallet.WalletProtobufSerializer;
+import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -188,7 +188,7 @@ public class WalletManager {
         wallet.addCoinsReceivedEventListener(new WalletCoinsReceivedEventListener() {
             @Override
             public void onCoinsReceived(Wallet wallet, Transaction transaction, Coin coin, Coin coin1) {
-                org.sendj.core.Context.propagate(conf.getWalletContext());
+                org.coin2playj.core.Context.propagate(conf.getWalletContext());
                 saveWallet();
             }
         });

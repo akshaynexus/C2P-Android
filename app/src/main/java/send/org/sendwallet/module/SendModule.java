@@ -1,17 +1,17 @@
 package send.org.sendwallet.module;
 
-import org.sendj.core.Address;
-import org.sendj.core.Coin;
-import org.sendj.core.InsufficientMoneyException;
-import org.sendj.core.Peer;
-import org.sendj.core.Sha256Hash;
-import org.sendj.core.Transaction;
-import org.sendj.core.TransactionInput;
-import org.sendj.core.TransactionOutput;
-import org.sendj.crypto.DeterministicKey;
-import org.sendj.crypto.MnemonicException;
-import org.sendj.wallet.DeterministicKeyChain;
-import org.sendj.wallet.Wallet;
+import org.coin2playj.core.Address;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.InsufficientMoneyException;
+import org.coin2playj.core.Peer;
+import org.coin2playj.core.Sha256Hash;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.core.TransactionInput;
+import org.coin2playj.core.TransactionOutput;
+import org.coin2playj.crypto.DeterministicKey;
+import org.coin2playj.crypto.MnemonicException;
+import org.coin2playj.wallet.DeterministicKeyChain;
+import org.coin2playj.wallet.Wallet;
 
 import java.io.File;
 import java.io.IOException;

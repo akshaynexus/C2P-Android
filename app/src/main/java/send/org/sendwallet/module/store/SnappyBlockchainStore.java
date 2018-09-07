@@ -6,13 +6,13 @@ import com.snappydb.DB;
 import com.snappydb.DBFactory;
 import com.snappydb.SnappydbException;
 
-import org.sendj.core.Block;
-import org.sendj.core.Context;
-import org.sendj.core.NetworkParameters;
-import org.sendj.core.Sha256Hash;
-import org.sendj.core.StoredBlock;
-import org.sendj.store.BlockStore;
-import org.sendj.store.BlockStoreException;
+import org.coin2playj.core.Block;
+import org.coin2playj.core.Context;
+import org.coin2playj.core.NetworkParameters;
+import org.coin2playj.core.Sha256Hash;
+import org.coin2playj.core.StoredBlock;
+import org.coin2playj.store.BlockStore;
+import org.coin2playj.store.BlockStoreException;
 
 import java.io.File;
 import java.io.IOException;

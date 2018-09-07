@@ -2,8 +2,8 @@ package send.org.sendwallet.module;
 
 import android.content.SharedPreferences;
 
-import org.sendj.core.Context;
-import org.sendj.core.NetworkParameters;
+import org.coin2playj.core.Context;
+import org.coin2playj.core.NetworkParameters;
 
 import global.WalletConfiguration;
 import send.org.sendwallet.utils.Configurations;

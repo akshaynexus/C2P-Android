@@ -1,8 +1,8 @@
 package org.sendtrum.imp;
 
-import org.sendj.core.Context;
-import org.sendj.core.NetworkParameters;
-import org.sendj.params.TestNet3Params;
+import org.coin2playj.core.Context;
+import org.coin2playj.core.NetworkParameters;
+import org.coin2playj.params.TestNet3Params;
 
 import global.WalletConfiguration;
 

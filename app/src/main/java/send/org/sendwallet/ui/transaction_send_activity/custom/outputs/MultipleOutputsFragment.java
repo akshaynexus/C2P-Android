@@ -12,8 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import org.sendj.core.Coin;
-import org.sendj.uri.SendURI;
+import org.coin2playj.core.Coin;
+import org.coin2playj.uri.SendURI;
 
 import java.util.ArrayList;
 import java.util.List;

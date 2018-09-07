@@ -20,11 +20,11 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.sendj.core.Coin;
-import org.sendj.core.InsufficientMoneyException;
-import org.sendj.core.Transaction;
-import org.sendj.uri.SendURI;
-import org.sendj.wallet.Wallet;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.InsufficientMoneyException;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.uri.SendURI;
+import org.coin2playj.wallet.Wallet;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

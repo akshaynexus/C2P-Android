@@ -2,7 +2,7 @@ package sendtrum;
 
 import com.google.protobuf.ByteString;
 
-import org.sendj.core.Sha256Hash;
+import org.coin2playj.core.Sha256Hash;
 import org.furszy.client.IoManager;
 import org.furszy.client.basic.BaseMsgFuture;
 import org.furszy.client.basic.IoSessionConfImp;

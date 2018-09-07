@@ -1,6 +1,6 @@
 package send.org.sendwallet.ui.transaction_send_activity.custom.outputs;
 
-import org.sendj.core.Coin;
+import org.coin2playj.core.Coin;
 
 import java.io.Serializable;
 

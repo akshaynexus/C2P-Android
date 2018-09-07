@@ -1,12 +1,12 @@
 package org.sendtrum.imp;
 
-import org.sendj.core.ECKey;
-import org.sendj.params.TestNet3Params;
+import org.coin2playj.core.ECKey;
+import org.coin2playj.params.TestNet3Params;
 import org.junit.Test;
 import org.spongycastle.math.ec.ECPoint;
 import org.spongycastle.util.encoders.Hex;
 
-import static org.sendj.core.ECKey.CURVE;
+import static org.coin2playj.core.ECKey.CURVE;
 
 /**
  * Created by kaali on 8/13/17.

@@ -1,7 +1,7 @@
 package sendtrum;
 
-import org.sendj.core.Address;
-import org.sendj.core.CoinDefinition;
+import org.coin2playj.core.Address;
+import org.coin2playj.core.CoinDefinition;
 import org.furszy.client.IoManager;
 import org.furszy.client.exceptions.ConnectionFailureException;
 import org.slf4j.Logger;

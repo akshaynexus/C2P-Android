@@ -11,7 +11,7 @@
         <item>Uranus</item>
         <item>Neptun</item>
     </string-array>
-    <string name="app_name">SEND Geldbörse</string>
+    <string name="app_name">C2P Geldbörse</string>
     <string name="btn_create_wallet">Geldbörse erstellen</string>
     <string name="btn_restore_wallet">Geldbörse wiederherstellen</string>
     <string name="restore_wallet_message">Wähle eine Sicherheitskopie einer Geldbörse aus einer Datei</string>
@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Wechseln des vertrauenswürdigen Knoten</string>
     <string name="settings_reset_blockchain">Blockchain zurücksetzen</string>
     <string name="save">Speichern</string>
-    <string name="tutorial_message">Innovative Kryptowährung für Social Sending. Teilen Sie SEND sofort über soziale Netzwerk-Plattformen. </string>
+    <string name="tutorial_message">Innovative Kryptowährung für Social Sending. Teilen Sie C2P sofort über soziale Netzwerk-Plattformen. </string>
     <!-- Tutorial -->
     <string name="next">weiter</string>
     <string name="skip">überspringen</string>
     <string name="start">Start</string>
-    <string name="title_slide1">SEND ist Sicherheit</string>
+    <string name="title_slide1">C2P ist Sicherheit</string>
     <string name="desc_slide1">Verwenden von BIP38 Verschlüsselung und Entschlüsselung privater Schlüssel zum Schutz Ihrer Brieftasche.</string>
     <string name="title_slide2">60 Sekunden Block-Zeit</string>
-    <string name="desc_slide2">SEND-Transaktionen mit SwiftTX sind bereits sehr schnell und sind sofort mit einer NULL-Bestätigungswartezeit erforderlich.</string>
+    <string name="desc_slide2">C2P-Transaktionen mit SwiftTX sind bereits sehr schnell und sind sofort mit einer NULL-Bestätigungswartezeit erforderlich.</string>
     <string name="title_slide3">Extrem sicher und vertraulich</string>
-    <string name="desc_slide3">Ziel von SEND ist es, die erste Social-Plattform für Kryptowährung zu etablieren.</string>
+    <string name="desc_slide3">Ziel von C2P ist es, die erste Social-Plattform für Kryptowährung zu etablieren.</string>
     <string name="title_slide4">Verbund vertrauter Knoten</string>
     <string name="desc_slide4">Trusted Nodes Federation ermöglicht leichte PoS-Wallets, Sie können sich darauf verlassen oder Ihren eigenen vertrauenswürdigen Knoten erstellen!</string>
     <string name="option_add_node">Knoten hinzufügen</string>
@@ -133,7 +133,7 @@
     <string name="restore_dialog_tag">Dialog-Etikett wiederherstellen</string>
     <string name="restore_dialog_error">Fehler-Dialog wiederherstellen</string>
     <string name="settings_support">Support</string>
-    <string name="support_subject">SEND Geldbörsen Support</string>
+    <string name="support_subject">C2P Geldbörsen Support</string>
     <string name="tutorial">undefined</string>
     <string name="copy">Kopie</string>
     <string name="share">Teilen</string>

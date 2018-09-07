@@ -75,7 +75,7 @@ public class SettingsActivity extends BaseDrawerActivity implements View.OnClick
         txt_network_info = (TextView) findViewById(R.id.txt_network_info);
 
         textAbout = (TextView)findViewById(R.id.text_about);
-        String text = "Made by<br> <font color=#008dcf>SEND TECH-TEAM</font> <br>(c) SEND Community";
+        String text = "Made by<br> <font color=#008dcf>C2P TECH-TEAM</font> <br>(c) C2P Community";
         textAbout.setText(Html.fromHtml(text));
         // Open Backup Wallet
         buttonBackup = (Button) findViewById(R.id.btn_backup_wallet);
@@ -137,7 +137,7 @@ public class SettingsActivity extends BaseDrawerActivity implements View.OnClick
     private void updateNetworkStatus() {
         txt_network_info.setText(
                 Html.fromHtml(
-                        "Network<br><font color=#0098FF>"+"SEND Network"+
+                        "Network<br><font color=#0098FF>"+"C2P Network"+
                                 "</font><br>" +
                                 "Height<br><font color=#0098FF>"+sendModule.getChainHeight()+"</font><br>" +
                                 "Protocol Version<br><font color=#0098FF>"+

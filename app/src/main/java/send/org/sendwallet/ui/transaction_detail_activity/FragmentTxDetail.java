@@ -11,12 +11,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.sendj.core.Coin;
-import org.sendj.core.Transaction;
-import org.sendj.core.TransactionInput;
-import org.sendj.core.TransactionOutPoint;
-import org.sendj.core.TransactionOutput;
-import org.sendj.script.Script;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.core.TransactionInput;
+import org.coin2playj.core.TransactionOutPoint;
+import org.coin2playj.core.TransactionOutput;
+import org.coin2playj.script.Script;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

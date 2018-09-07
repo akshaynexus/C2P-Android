@@ -3,10 +3,10 @@ package send.org.sendwallet.module;
 import android.os.Environment;
 import android.text.format.DateUtils;
 
-import org.sendj.core.Context;
-import org.sendj.core.NetworkParameters;
-import org.sendj.params.MainNetParams;
-import org.sendj.params.TestNet3Params;
+import org.coin2playj.core.Context;
+import org.coin2playj.core.NetworkParameters;
+import org.coin2playj.params.MainNetParams;
+import org.coin2playj.params.TestNet3Params;
 
 import java.io.File;
 

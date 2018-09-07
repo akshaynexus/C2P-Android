@@ -13,8 +13,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import org.sendj.core.AddressFormatException;
-import org.sendj.uri.SendURI;
+import org.coin2playj.core.AddressFormatException;
+import org.coin2playj.uri.SendURI;
 
 import send.org.sendwallet.R;
 import send.org.sendwallet.ui.base.BaseActivity;

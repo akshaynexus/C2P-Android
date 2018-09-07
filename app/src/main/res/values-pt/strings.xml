@@ -11,7 +11,7 @@
         <item>Urano</item>
         <item>Netuno</item>
     </string-array>
-    <string name="app_name">Carteira SEND</string>
+    <string name="app_name">Carteira C2P</string>
     <string name="btn_create_wallet">Criar Carteira</string>
     <string name="btn_restore_wallet">Recuperar Carteira</string>
     <string name="restore_wallet_message">Selecione uma cópia de segurança da carteira
@@ -115,7 +115,7 @@ de sua preferência</string>
     <string name="next">Próximo</string>
     <string name="skip">Pular</string>
     <string name="start">Iniciar</string>
-    <string name="title_slide1">SEND é seguro</string>
+    <string name="title_slide1">C2P é seguro</string>
     <string name="desc_slide1">Usando Criptografia BIP38 e Decryption de Chaves Privadas para proteger sua Carteira.</string>
     <string name="title_slide2">60 segundos tempo de bloqueio</string>
     <string name="desc_slide2">Já é muito rápido, as transações de envio usando o SwiftTX são instantâneas com o tempo de espera de confirmação ZERO necessário.</string>
@@ -142,7 +142,7 @@ de sua preferência</string>
     <string name="restore_dialog_tag">restaurar etiqueta de diálogo</string>
     <string name="restore_dialog_error">restaurar diálogo de erro</string>
     <string name="settings_support">Suporte</string>
-    <string name="support_subject">Suporte da carteira SEND</string>
+    <string name="support_subject">Suporte da carteira C2P</string>
     <string name="tutorial">Tutorial</string>
     <string name="copy">Copiar</string>
     <string name="share">Compartilhar</string>

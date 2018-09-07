@@ -1,9 +1,9 @@
 /*
 package org.sendtrum;
 
-import org.sendj.core.Address;
-import org.sendj.core.Coin;
-import org.sendj.utils.MonetaryFormat;
+import org.coin2playj.core.Address;
+import org.coin2playj.core.Coin;
+import org.coin2playj.utils.MonetaryFormat;
 import org.kaali.client.exceptions.ConnectionFailureException;
 import org.junit.Test;
 import org.sendtrum.imp.AddressStoreImp;

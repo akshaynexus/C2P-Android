@@ -20,20 +20,20 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.LocalBroadcastManager;
 
-import org.sendj.core.Block;
-import org.sendj.core.Coin;
-import org.sendj.core.FilteredBlock;
-import org.sendj.core.Peer;
-import org.sendj.core.Transaction;
-import org.sendj.core.TransactionConfidence;
-import org.sendj.core.listeners.AbstractPeerDataEventListener;
-import org.sendj.core.listeners.PeerConnectedEventListener;
-import org.sendj.core.listeners.PeerDataEventListener;
-import org.sendj.core.listeners.PeerDisconnectedEventListener;
-import org.sendj.core.listeners.TransactionConfidenceEventListener;
-import org.sendj.store.BlockStore;
-import org.sendj.wallet.Wallet;
-import org.sendj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.coin2playj.core.Block;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.FilteredBlock;
+import org.coin2playj.core.Peer;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.core.TransactionConfidence;
+import org.coin2playj.core.listeners.AbstractPeerDataEventListener;
+import org.coin2playj.core.listeners.PeerConnectedEventListener;
+import org.coin2playj.core.listeners.PeerDataEventListener;
+import org.coin2playj.core.listeners.PeerDisconnectedEventListener;
+import org.coin2playj.core.listeners.TransactionConfidenceEventListener;
+import org.coin2playj.store.BlockStore;
+import org.coin2playj.wallet.Wallet;
+import org.coin2playj.wallet.listeners.WalletCoinsReceivedEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -190,7 +190,7 @@ public class SendWalletService extends Service{
 
         @Override
         public void run() {
-            org.sendj.core.Context.propagate(SendContext.CONTEXT);
+            org.coin2playj.core.Context.propagate(SendContext.CONTEXT);
             lastMessageTime = System.currentTimeMillis();
             broadcastBlockchainState(false);
         }
@@ -237,7 +237,7 @@ public class SendWalletService extends Service{
         @Override
         public void onCoinsReceived(Wallet wallet, Transaction transaction, Coin coin, Coin coin1) {
             //todo: acá falta una validación para saber si la transaccion es mia.
-            org.sendj.core.Context.propagate(CONTEXT);
+            org.coin2playj.core.Context.propagate(CONTEXT);
 
             try {
 
@@ -290,7 +290,7 @@ public class SendWalletService extends Service{
     private TransactionConfidenceEventListener transactionConfidenceEventListener = new TransactionConfidenceEventListener() {
         @Override
         public void onTransactionConfidenceChanged(Wallet wallet, Transaction transaction) {
-            org.sendj.core.Context.propagate(CONTEXT);
+            org.coin2playj.core.Context.propagate(CONTEXT);
             try {
                 if (transaction != null) {
                     if (transaction.getConfidence().getDepthInBlocks() > 1) {

@@ -1,6 +1,6 @@
 package chain;
 
-import org.sendj.core.PeerGroup;
+import org.coin2playj.core.PeerGroup;
 
 import java.util.Set;
 

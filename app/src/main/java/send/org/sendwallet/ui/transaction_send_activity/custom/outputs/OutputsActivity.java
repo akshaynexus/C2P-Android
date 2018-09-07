@@ -10,7 +10,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.sendj.core.Coin;
+import org.coin2playj.core.Coin;
 
 import java.io.Serializable;
 import java.util.List;

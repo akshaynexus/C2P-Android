@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/txt_total_amount"
             android:textColor = "@color/mainText"
-            android:text="3.13 SEND"/>
+            android:text="3.13 C2P"/>
     </LinearLayout>
 
 

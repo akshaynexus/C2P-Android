@@ -1,8 +1,8 @@
 package send.org.sendwallet.ui.wallet_activity;
 
-import org.sendj.core.Coin;
-import org.sendj.core.Sha256Hash;
-import org.sendj.core.Transaction;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.Sha256Hash;
+import org.coin2playj.core.Transaction;
 
 import java.io.Serializable;
 import java.util.Map;

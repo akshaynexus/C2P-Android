@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import org.sendj.core.Transaction;
+import org.coin2playj.core.Transaction;
 
 import send.org.sendwallet.R;
 import send.org.sendwallet.ui.base.BaseFragment;

@@ -1,7 +1,7 @@
 package send.org.sendwallet.ui.transaction_send_activity.custom.inputs;
 
-import org.sendj.core.Sha256Hash;
-import org.sendj.core.TransactionOutput;
+import org.coin2playj.core.Sha256Hash;
+import org.coin2playj.core.TransactionOutput;
 
 import java.io.Serializable;
 

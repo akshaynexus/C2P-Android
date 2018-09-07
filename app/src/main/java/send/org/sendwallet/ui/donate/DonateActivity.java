@@ -8,9 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.sendj.core.Coin;
-import org.sendj.core.InsufficientMoneyException;
-import org.sendj.core.Transaction;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.InsufficientMoneyException;
+import org.coin2playj.core.Transaction;
 
 import send.org.sendwallet.R;
 import send.org.sendwallet.module.SendContext;

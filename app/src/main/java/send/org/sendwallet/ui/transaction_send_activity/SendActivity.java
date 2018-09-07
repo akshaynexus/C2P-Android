@@ -26,15 +26,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
-import org.sendj.core.Address;
-import org.sendj.core.Coin;
-import org.sendj.core.InsufficientMoneyException;
-import org.sendj.core.NetworkParameters;
-import org.sendj.core.Transaction;
-import org.sendj.core.TransactionInput;
-import org.sendj.core.TransactionOutput;
-import org.sendj.uri.SendURI;
-import org.sendj.wallet.Wallet;
+import org.coin2playj.core.Address;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.InsufficientMoneyException;
+import org.coin2playj.core.NetworkParameters;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.core.TransactionInput;
+import org.coin2playj.core.TransactionOutput;
+import org.coin2playj.uri.SendURI;
+import org.coin2playj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

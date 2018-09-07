@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.sendj.core.Peer;
+import org.coin2playj.core.Peer;
 
 import java.util.List;
 

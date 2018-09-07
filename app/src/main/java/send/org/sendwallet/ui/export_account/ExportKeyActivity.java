@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.google.zxing.WriterException;
 
-import org.sendj.crypto.DeterministicKey;
+import org.coin2playj.crypto.DeterministicKey;
 
 import send.org.sendwallet.R;
 import send.org.sendwallet.module.SendContext;

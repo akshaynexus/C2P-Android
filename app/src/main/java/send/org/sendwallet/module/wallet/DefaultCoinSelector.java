@@ -1,13 +1,13 @@
 package send.org.sendwallet.module.wallet;
 
-import org.sendj.core.Coin;
-import org.sendj.core.NetworkParameters;
-import org.sendj.core.Sha256Hash;
-import org.sendj.core.Transaction;
-import org.sendj.core.TransactionConfidence;
-import org.sendj.core.TransactionOutput;
-import org.sendj.wallet.CoinSelection;
-import org.sendj.wallet.CoinSelector;
+import org.coin2playj.core.Coin;
+import org.coin2playj.core.NetworkParameters;
+import org.coin2playj.core.Sha256Hash;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.core.TransactionConfidence;
+import org.coin2playj.core.TransactionOutput;
+import org.coin2playj.wallet.CoinSelection;
+import org.coin2playj.wallet.CoinSelector;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

@@ -11,7 +11,7 @@
         <item>Uranus</item>
         <item>Neptunus</item>
     </string-array>
-    <string name="app_name">SEND portefeuille</string>
+    <string name="app_name">C2P portefeuille</string>
     <string name="btn_create_wallet">Creëer Portefeuille</string>
     <string name="btn_restore_wallet">Herstel Portefeuille</string>
     <string name="restore_wallet_message">Selecteer een backup van de portefeuille \n van een opslageenheid</string>
@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Wijzig trusted node</string>
     <string name="settings_reset_blockchain">Blockchain resetten</string>
     <string name="save">Opslaan</string>
-    <string name="tutorial_message">Innovatieve cryptocurrency voor sociale verzending. Share SEND Direct over sociale netwerkplatforms.</string>
+    <string name="tutorial_message">Innovatieve cryptocurrency voor sociale verzending. Share C2P Direct over sociale netwerkplatforms.</string>
     <!-- Tutorial -->
     <string name="next">Volgende</string>
     <string name="skip">Overslaan</string>
     <string name="start">Beginnen</string>
-    <string name="title_slide1">SEND is veilig</string>
+    <string name="title_slide1">C2P is veilig</string>
     <string name="desc_slide1">BIP38-versleuteling en decodering van persoonlijke sleutels gebruiken om uw portemonnee te beveiligen.</string>
     <string name="title_slide2">60 seconden block time</string>
-    <string name="desc_slide2">Reeds zeer snel zijn SEND-transacties met SwiftTX direct en er is een ZERO-wachttijd voor bevestiging vereist.</string>
+    <string name="desc_slide2">Reeds zeer snel zijn C2P-transacties met SwiftTX direct en er is een ZERO-wachttijd voor bevestiging vereist.</string>
     <string name="title_slide3">Enorm veilig en privé</string>
-    <string name="desc_slide3">SEND richt zich op de oprichting van het eerste sociale platform voor crypto-valuta.</string>
+    <string name="desc_slide3">C2P richt zich op de oprichting van het eerste sociale platform voor crypto-valuta.</string>
     <string name="title_slide4">Trusted nodes federatie</string>
     <string name="desc_slide4">Vertrouwde nodes federatie maakt lichte PoS portemonnees mogelijk, je kunt er op rekenen of een eigen vertrouwde node maken!</string>
     <string name="option_add_node">Node toevoegen</string>
@@ -133,7 +133,7 @@
     <string name="restore_dialog_tag">herstel dialoog tag</string>
     <string name="restore_dialog_error">herstel dialoog error</string>
     <string name="settings_support">Ondersteuning</string>
-    <string name="support_subject">SEND portefeuille ondersteuning</string>
+    <string name="support_subject">C2P portefeuille ondersteuning</string>
     <string name="tutorial">Tutorial</string>
     <string name="copy">Kopieer</string>
     <string name="share">Delen</string>

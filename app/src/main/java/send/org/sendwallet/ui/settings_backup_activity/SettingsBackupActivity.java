@@ -66,7 +66,7 @@ public class SettingsBackupActivity extends BaseActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                org.sendj.core.Context.propagate(SendContext.CONTEXT);
+                org.coin2playj.core.Context.propagate(SendContext.CONTEXT);
                 backup();
                 runOnUiThread(new Runnable() {
                     @Override

@@ -1,6 +1,6 @@
 package send.org.sendwallet.utils;
 
-import org.sendj.core.ScriptException;
+import org.coin2playj.core.ScriptException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

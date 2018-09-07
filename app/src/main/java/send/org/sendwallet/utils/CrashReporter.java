@@ -14,9 +14,9 @@ import com.google.common.base.Joiner;
 import com.google.common.base.Strings;
 import com.google.common.base.Throwables;
 
-import org.sendj.core.Transaction;
-import org.sendj.core.TransactionOutput;
-import org.sendj.wallet.Wallet;
+import org.coin2playj.core.Transaction;
+import org.coin2playj.core.TransactionOutput;
+import org.coin2playj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

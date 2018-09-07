@@ -19,8 +19,8 @@ import android.widget.Toast;
 
 import com.google.zxing.WriterException;
 
-import org.sendj.core.Address;
-import org.sendj.uri.SendURI;
+import org.coin2playj.core.Address;
+import org.coin2playj.uri.SendURI;
 
 import send.org.sendwallet.SendApplication;
 import send.org.sendwallet.R;
